@@ -1,0 +1,24 @@
+{
+  "name": "todos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js -P -- -t node-lessify -t [ babelify --presets [ es2015 react ] ]",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babelify": "^7.3.0"
+  },
+  "dependencies": {
+    "lodash.throttle": "^4.1.1",
+    "marked": "^0.3.6",
+    "node-lessify": "^0.1.4",
+    "preact": "^6.4.0",
+    "preact-router": "^2.3.2"
+  }
+}
